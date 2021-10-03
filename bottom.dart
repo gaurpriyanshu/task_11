@@ -6,7 +6,11 @@ class MyB extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      
       decoration: BoxDecoration(
+        gradient: LinearGradient(colors: [Colors.red,Colors.blue],),
+ 
+        
         borderRadius: BorderRadius.circular(10),
         border:
             Border.all(color: Colors.blue, width: 6, style: BorderStyle.solid),
