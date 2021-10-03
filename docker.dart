@@ -2,6 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:imagetext/mybotton.dart';
 
+main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyDocker(),
+    ),
+  );
+}
+
 class MyDocker extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
